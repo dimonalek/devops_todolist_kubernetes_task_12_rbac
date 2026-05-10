@@ -10,6 +10,7 @@ kubectl apply -f .infrastructure/app/pv.yml
 kubectl apply -f .infrastructure/app/pvc.yml
 kubectl apply -f .infrastructure/app/secret.yml
 kubectl apply -f .infrastructure/app/configMap.yml
+kubectl apply -f security/rbac
 kubectl apply -f .infrastructure/app/clusterIp.yml
 kubectl apply -f .infrastructure/app/nodeport.yml
 kubectl apply -f .infrastructure/app/hpa.yml
